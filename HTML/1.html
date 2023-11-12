@@ -3,7 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="author" content="Elvi" />
+    <meta
+      name="description"
+      content="This random name generator can generate names for babies and so on"
+    />
+    <meta name="keywords" content="name, generator, random name, pick name" />
+    <title>Random name generator</title>
+    <link rel="icon" type="image/x-icon" href="/Images/btn_header_small.png" />
+    <link rel="stylesheet" type="text/css" href="/CSS/1.css" />
   </head>
-  <body></body>
+  <body>
+    <header></header>
+    <main>
+      <h2>Random name generator</h2>
+      <section>
+        <form>
+          <button type="submit">Generate a Name!</button> <br />
+          <br />
+          <input type="radio" name="gender" value="masculine" /> masculine
+          <input type="radio" name="gender" value="feminine" /> feminine
+          <input type="radio" name="gender" value="ambiguous" /> ambiguous
+          <input type="radio" name="gender" value="aither" /> either
+          <br />
+          <br />
+          Number
+          <select name="name-type">
+            <option value="first anme only">First name only</option>
+            <option value="First name, middle name">
+              First name, middle name
+            </option>
+            <option value="First anme, 2 middle names">
+              First name, 2 middle names
+            </option>
+            <option value="First name, 3 middle names">
+              First name, 3 middle names
+            </option>
+          </select>
+          <select>
+            <option value="x1">x1</option>
+            <option value="x5">x5</option>
+          </select>
+          <br />
+          <br />
+          Surname <input name="surname" placeholder="(optional)" />
+          or
+          <input type="checkbox" name="surname" value="random" /> random
+          <br />
+          <br />
+          <input
+            type="checkbox"
+            name="additional"
+            value="generate life story"
+          />
+          generate life story
+          <input type="checkbox" name="additional" value="avoid rare" /> avoid
+          rare
+          <input type="checkbox" name="additional" value="avoid diminutives" />
+          avoid diminutives
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
