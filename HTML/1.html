@@ -18,10 +18,12 @@
     <main>
       <h2>Random name generator</h2>
       <section>
-        <form>
+        <form mathod="get" action="something.php">
           <button type="submit">Generate a Name!</button> <br />
           <br />
-          <input type="radio" name="gender" value="masculine" /> masculine
+          <div class="random-option">
+            <input type="radio" name="gender" value="masculine" /> masculine
+          </div>
           <input type="radio" name="gender" value="feminine" /> feminine
           <input type="radio" name="gender" value="ambiguous" /> ambiguous
           <input type="radio" name="gender" value="aither" /> either
